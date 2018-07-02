@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/single_http_default"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="单个请求---使用默认配置" />
+
+        <Button
+            android:id="@+id/single_http"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="单个请求---自己配置请求基础参数" />
+
+        <Button
+            android:id="@+id/single_string_http"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="单个请求---返回字符串" />
+
+        <Button
+            android:id="@+id/global_http"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="统一请求---使用全局配置的相关参数" />
+
+        <Button
+            android:id="@+id/global_string_http"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="统一请求---接受string" />
+
+        <Button
+            android:id="@+id/multiple_http"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="链式发送多个请求" />
+
+        <Button
+            android:id="@+id/download_http"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="文件下载" />
+
+        <Button
+            android:id="@+id/upload_http"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="上传单张图片" />
+
+        <Button
+            android:id="@+id/upload_imgs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="上传多张图片" />
+        <Button
+            android:id="@+id/test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试请求" />
+
+        <TextView
+            android:id="@+id/response_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>
