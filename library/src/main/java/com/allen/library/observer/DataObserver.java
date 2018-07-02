@@ -48,14 +48,16 @@ public abstract class DataObserver<T> extends BaseDataObserver<T> {
     /**
      * 成功回调
      *
-     * @param data 结果
+     * @param结果
      */
-    protected abstract void onSuccess(T data);
+  /*  protected abstract void onSuccess(T data);*/
 
     @Override
     public void doOnSubscribe(Disposable d) {
         RxHttpUtils.addDisposable(d);
     }
+
+
 
     @Override
     public void doOnError(String errorMsg) {
@@ -68,7 +70,8 @@ public abstract class DataObserver<T> extends BaseDataObserver<T> {
 
     @Override
     public void doOnNext(BaseData<T> data) {
-        onSuccess(data.getResultData());
+   /*     onSuccess(data.getResultData());*/
+        onNext(data);
         //可以根据需求对code统一处理
 //        switch (data.getCode()) {
 //            case 200:

@@ -137,9 +137,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                             }
 
-                            @Override
+                          /*  @Override
                             protected void onSuccess(LoginBean data) {
+
                                  Log.e("backinfo","成功："+new Gson().toJson(data));
+                            }*/
+
+                            @Override
+                            public void onNext(BaseData<LoginBean> baseData) {
+
+                                Log.e("backinfo","成功ssssssssss："+new Gson().toJson(baseData));
                             }
                         });
                 break;
