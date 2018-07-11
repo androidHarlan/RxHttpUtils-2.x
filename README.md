@@ -1,5 +1,5 @@
 [![](https://jitpack.io/v/lygttpod/RxHttpUtils.svg)](https://jitpack.io/#lygttpod/RxHttpUtils)
-### 项目https://github.com/lygttpod/RxHttpUtils 取消参考https://blog.csdn.net/oqqYYYY1/article/details/78740920
+### 项目https://github.com/lygttpod/RxHttpUtils 取消请求接口参考https://blog.csdn.net/oqqYYYY1/article/details/78740920
 # 重磅推出 RxHttpUtils 2.x 版本
 ## RxJava+Retrofit封装，基于RxJava2和Retrofit2重构，便捷使用
 
